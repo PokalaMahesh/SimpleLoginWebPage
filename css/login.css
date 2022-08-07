@@ -1,0 +1,68 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(../image/loginpage/bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container
+{
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid rgb(239, 238, 238); 
+    margin-bottom: 15px;
+    padding: 13px;
+    margin-left:64px;
+}
+.box
+{
+    font-size:17px ;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;;
+    margin: 23px 5px;
+}
+.box input
+{
+    background: none;
+    width: 75%;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 7px 0px;
+}
+.btn
+{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 7px 31px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    font-size: 18px;
+    background: none;
+    color: white;
+    margin-left: 79px;
+    transition: opacity 0.15s;
+
+}
+.btn:hover
+{
+    color: black;
+    background: white;
+    opacity: 0.6;
+}
+.box i
+{
+    width: 25px;
+    text-align: center;
+    margin-right:7px;
+}
